@@ -24,7 +24,7 @@
 	                 &trans &trans &trans &trans &kp RET              &kp BSPC  &kp SPACE  &kp LGUI &trans &trans
 			>;
 
-			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp K_SCROLL_UP K_SCROLL_DN>;
+			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>;
 		};
 	};
 };
